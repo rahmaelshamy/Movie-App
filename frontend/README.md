@@ -1,16 +1,72 @@
-# React + Vite
+🎬 React Movie Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React movie platform built with Vite where users can browse movies, search for titles, and save favorites — similar to Netflix.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ https://movie-app-ipq6.vercel.app
 
-## React Compiler
+✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Browse popular movies
 
-## Expanding the ESLint configuration
+Search for any movie
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Add/remove favorites
+
+Favorites persist using localStorage
+
+Responsive movie grid layout
+
+📸 Screenshots
+
+Make sure you placed the images inside:
+frontend/screenshots/
+
+frontend/
+ └─ screenshots/
+      ├─ homepage.png
+      ├─ favorites.png
+      └─ empty-favorites.png
+
+
+Correct screenshot imports:
+
+![Homepage](./screenshots/homepage.png)
+![Favorites Page](./screenshots/favorites.png)
+![Empty Favorites](./screenshots/empty-favorites.png)
+
+🧩 How to Use
+
+Open the live demo.
+
+Browse movies on the homepage.
+
+Click the heart ♥ to add a movie to favorites.
+
+Navigate to /favorites to view your list.
+
+🛠️ Running Locally
+# 1. Clone the repo
+git clone https://github.com/rahmaelshamy/Movie-App.git
+
+# 2. Go into the project folder
+cd Movie-App/frontend
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+
+
+Open the app at:
+
+👉 https://movie-app-ipq6.vercel.app/
+
+📦 Tech Stack
+
+React
+Vite
+React Router
+CSS
